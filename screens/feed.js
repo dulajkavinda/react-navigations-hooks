@@ -9,7 +9,9 @@ export default function Feed() {
       <Text style={styles.title}>Navigation Drawer</Text>
       <Button
         title="Go to Feed"
-        onPress={() => navigation.navigate("Details")}
+        onPress={() =>
+          navigation.navigate("Details", { screenName: "Details Screen 1" })
+        }
       />
     </View>
   );

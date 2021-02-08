@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text } from "react-native";
-import { styles } from "../styles/index";
+import styles from "../styles/index";
 
 Tab1 = () => (
   <View style={styles.center}>

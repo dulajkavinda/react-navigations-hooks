@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text } from "react-native";
-import { styles } from "../styles/index";
+import styles from "../styles/index";
 
 Tab3 = () => (
   <View style={styles.center}>
@@ -8,4 +8,4 @@ Tab3 = () => (
   </View>
 );
 
-export default Tab1;
+export default Tab3;
